@@ -1,0 +1,42 @@
+body {
+    background-color: #2b6a4b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  
+  .profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .info {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .info label {
+    font-weight: bold;
+  }
+  
+  .info span {
+    display: block;
+    margin-top: 5px;
+  }
